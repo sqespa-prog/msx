@@ -12,7 +12,7 @@
             "items": [
               {
                 "type": "default",
-                "layout": "0,0,6,3",
+                "layout": "0,0,4,3",
                 "color": "msx-glass",
                 "icon": "play-circle-outline",
                 "headline": "Okko",
@@ -21,7 +21,7 @@
               },
               {
                 "type": "default",
-                "layout": "6,0,6,3",
+                "layout": "4,0,4,3",
                 "color": "msx-glass",
                 "icon": "apps",
                 "headline": "MSXPlayer",
@@ -30,7 +30,7 @@
               },
               {
                 "type": "default",
-                "layout": "0,3,6,3",
+                "layout": "8,0,4,3",
                 "color": "msx-glass",
                 "icon": "movie",
                 "headline": "Мои фильмы",
@@ -39,7 +39,7 @@
               },
               {
                 "type": "default",
-                "layout": "0,6,6,3",
+                "layout": "0,3,4,3",
                 "color": "msx-glass",
                 "icon": "live-tv",
                 "headline": "Lampa (локальная)",
@@ -48,7 +48,7 @@
               },
               {
                 "type": "default",
-                "layout": "6,3,6,3",
+                "layout": "4,3,4,3",
                 "color": "msx-glass",
                 "icon": "search",
                 "headline": "Поиск",
