@@ -1,0 +1,6 @@
+{
+  "name": "Lampa (локальная)",
+  "version": "1.0.0",
+  "parameter": "menu:https://sqespa-prog.github.io/msx/lampa/menu.json",
+  "launcher": { "icon": "live-tv", "color": "msx-black-soft" }
+}

@@ -1,0 +1,22 @@
+{
+  "action": "link:http://192.168.1.247:9117/lampa/",
+  "headline": "Lampa (локальная)",
+  "menu": [
+    {
+      "icon": "live-tv",
+      "label": "Lampa",
+      "data": {
+        "type": "pages",
+        "headline": "Lampa (локальная)",
+        "pages": [{
+          "items": [{
+            "type": "default", "layout": "0,0,6,3", "color": "msx-glass", "icon": "live-tv",
+            "headline": "Открыть Lampa",
+            "text": "С этого компьютера; «Смотреть» → наш TorrServer через VPN (компьютер должен быть включён)",
+            "action": "link:http://192.168.1.247:9117/lampa/"
+          }]
+        }]
+      }
+    }
+  ]
+}
