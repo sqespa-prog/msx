@@ -7,22 +7,30 @@
       "data": {
         "type": "pages",
         "headline": "Выберите",
-        "pages": [{
-          "items": [
-            {
-              "type": "default", "layout": "0,0,6,3", "color": "msx-glass",
-              "icon": "play-circle-outline", "headline": "Okko",
-              "text": "Официальный ТВ-клиент Okko",
-              "action": "link:https://zeasn.okko.tv/"
-            },
-            {
-              "type": "default", "layout": "6,0,6,3", "color": "msx-glass",
-              "icon": "apps", "headline": "MSXPlayer",
-              "text": "Портал msxplayer.ru",
-              "action": "menu:request:interaction:menu@http://plugins.msxplayer.ru/store.html"
-            }
-          ]
-        }]
+        "pages": [
+          {
+            "items": [
+              {
+                "type": "default",
+                "layout": "0,0,6,3",
+                "color": "msx-glass",
+                "icon": "play-circle-outline",
+                "headline": "Okko",
+                "text": "Официальный ТВ-клиент Okko",
+                "action": "link:https://zeasn.okko.tv/"
+              },
+              {
+                "type": "default",
+                "layout": "6,0,6,3",
+                "color": "msx-glass",
+                "icon": "apps",
+                "headline": "MSXPlayer",
+                "text": "Ваш лаунчер MSXPlayer v4: ForkPlayer, Filmix…",
+                "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/"
+              }
+            ]
+          }
+        ]
       }
     }
   ]
