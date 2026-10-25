@@ -1,20 +1,27 @@
 {
-  "action": "link:https://zeasn.okko.tv/",
-  "headline": "Okko",
+  "headline": "Media Station X",
   "menu": [
     {
-      "icon": "play-circle-outline",
-      "label": "Okko",
+      "icon": "home",
+      "label": "Старт",
       "data": {
         "type": "pages",
-        "headline": "Okko",
+        "headline": "Выберите",
         "pages": [{
-          "items": [{
-            "type": "default", "layout": "0,0,6,3", "color": "msx-glass",
-            "icon": "play-circle-outline", "headline": "Открыть Okko",
-            "text": "Официальный ТВ-клиент Okko",
-            "action": "link:https://zeasn.okko.tv/"
-          }]
+          "items": [
+            {
+              "type": "default", "layout": "0,0,6,3", "color": "msx-glass",
+              "icon": "play-circle-outline", "headline": "Okko",
+              "text": "Официальный ТВ-клиент Okko",
+              "action": "link:https://zeasn.okko.tv/"
+            },
+            {
+              "type": "default", "layout": "6,0,6,3", "color": "msx-glass",
+              "icon": "apps", "headline": "MSXPlayer",
+              "text": "Портал msxplayer.ru",
+              "action": "menu:request:interaction:menu@http://plugins.msxplayer.ru/store.html"
+            }
+          ]
         }]
       }
     }
