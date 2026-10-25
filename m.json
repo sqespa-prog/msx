@@ -36,6 +36,15 @@
                 "headline": "Мои фильмы",
                 "text": "Торренты через TorrServer и VPN (нужен включённый компьютер)",
                 "action": "content:http://192.168.1.247:9117/msx/films.json"
+              },
+              {
+                "type": "default",
+                "layout": "6,3,6,3",
+                "color": "msx-glass",
+                "icon": "search",
+                "headline": "Поиск",
+                "text": "Поиск фильмов на вашем сайте (нужен включённый компьютер)",
+                "action": "content:request:interaction:http://192.168.1.247:9117/msx/search?q={INPUT}|search@http://msx.benzac.de/interaction/input.html"
               }
             ]
           }
