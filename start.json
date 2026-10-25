@@ -1,0 +1,5 @@
+{
+  "name": "Okko",
+  "version": "1.0.0",
+  "parameter": "menu:https://raw.githubusercontent.com/sqespa-prog/msx/main/data/menu.json"
+}

@@ -1,0 +1,22 @@
+{
+  "action": "link:https://zeasn.okko.tv/",
+  "headline": "Okko",
+  "menu": [
+    {
+      "icon": "play-circle-outline",
+      "label": "Okko",
+      "data": {
+        "type": "pages",
+        "headline": "Okko",
+        "pages": [{
+          "items": [{
+            "type": "default", "layout": "0,0,4,2", "color": "msx-glass",
+            "icon": "play-circle-outline", "headline": "Открыть Okko",
+            "text": "Официальный ТВ-клиент Okko (zeasn.okko.tv)",
+            "action": "link:https://zeasn.okko.tv/"
+          }]
+        }]
+      }
+    }
+  ]
+}
