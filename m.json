@@ -27,6 +27,15 @@
                 "headline": "MSXPlayer",
                 "text": "Ваш лаунчер MSXPlayer v4: ForkPlayer, Filmix…",
                 "action": "menu:request:interaction:json:eyJoYW5kbGVySWQiOiJzdG9yZSIsInJlcXVlc3QiOiJtZW51In0=@http://v4.msxplayer.ru/plugins/interactions/msxplayer/"
+              },
+              {
+                "type": "default",
+                "layout": "0,3,6,3",
+                "color": "msx-glass",
+                "icon": "movie",
+                "headline": "Мои фильмы",
+                "text": "Торренты через TorrServer и VPN (нужен включённый компьютер)",
+                "action": "content:http://192.168.1.247:9117/msx/films.json"
               }
             ]
           }
