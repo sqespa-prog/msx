@@ -39,21 +39,21 @@
               },
               {
                 "type": "default",
-                "layout": "6,3,6,3",
-                "color": "msx-glass",
-                "icon": "search",
-                "headline": "Поиск",
-                "text": "Поиск фильмов на вашем сайте (нужен включённый компьютер)",
-                "action": "link:http://192.168.1.247:9117/tv#search"
-              },
-              {
-                "type": "default",
                 "layout": "0,6,6,3",
                 "color": "msx-glass",
                 "icon": "live-tv",
                 "headline": "Lampa (локальная)",
                 "text": "Lampa с этого компьютера: «Смотреть» → наш TorrServer через VPN",
                 "action": "link:http://192.168.1.247:9117/lampa/"
+              },
+              {
+                "type": "default",
+                "layout": "6,3,6,3",
+                "color": "msx-glass",
+                "icon": "search",
+                "headline": "Поиск",
+                "text": "Поиск фильмов на вашем сайте (нужен включённый компьютер)",
+                "action": "link:http://192.168.1.247:9117/tv#search"
               }
             ]
           }
